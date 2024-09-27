@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 text-gray-900">
+  <header class="bg-blue-600 text-white p-6 shadow-lg">
+    <div class="container mx-auto flex justify-between items-center">
+      <h1 class="text-4xl font-bold">Student Portfolio</h1>
+      <nav>
+        <a href="#about" class="text-white hover:text-gray-200 mx-2">About</a>
+        <a href="#projects" class="text-white hover:text-gray-200 mx-2">Projects</a>
+        <a href="#contact" class="text-white hover:text-gray-200 mx-2">Contact</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container mx-auto p-6">
+    <section id="about" class="mb-12">
+      <h2 class="text-3xl font-semibold mb-4">About Me</h2>
+      <div class="flex items-center">
+        <img src="https://studentsambassadors3.blob.core.windows.net/studentsambassadors3/studentambassadorsimg.avif" alt="Profile Picture" class="w-32 h-32 rounded-full mr-6 shadow-lg">
+        <p class="text-lg">I am a student in IT with a passion for web development and technology. I enjoy learning new technologies and applying them to solve real-world problems.</p>
+      </div>
+    </section>
+    <section id="projects" class="mb-12">
+      <h2 class="text-3xl font-semibold mb-4">Projects</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div class="bg-white p-6 shadow-lg rounded-lg">
+          <h3 class="text-2xl font-bold mb-2">Project 1</h3>
+          <p class="text-lg">Description of project 1.</p>
+        </div>
+        <div class="bg-white p-6 shadow-lg rounded-lg">
+          <h3 class="text-2xl font-bold mb-2">Project 2</h3>
+          <p class="text-lg">Description of project 2.</p>
+        </div>
+        <div class="bg-white p-6 shadow-lg rounded-lg">
+          <h3 class="text-2xl font-bold mb-2">Project 3</h3>
+          <p class="text-lg">Description of project 3.</p>
+        </div>
+      </div>
+    </section>
+    <section id="skills" class="mb-12">
+      <h2 class="text-3xl font-semibold mb-4">Skills</h2>
+      <ul class="list-disc list-inside text-lg">
+        <li>HTML & CSS</li>
+        <li>JavaScript</li>
+        <li>React</li>
+        <li>Node.js</li>
+        <li>Python</li>
+      </ul>
+    </section>
+    <section id="contact">
+      <h2 class="text-3xl font-semibold mb-4">Contact</h2>
+      <p class="text-lg">Email: <a href="mailto:student@example.com" class="text-blue-600 hover:underline">student@example.com</a></p>
+    </section>
+  </main>
+  <footer class="bg-blue-600 text-white p-6 mt-12 text-center shadow-lg">
+    © 2024 Student Portfolio
+  </footer>
+</body>
+</html>
